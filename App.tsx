@@ -4,6 +4,11 @@ import Home from './Home'
 import UseEffectDemo from './components/UseEffectDemo'
 import UseStateDemo from './components/UseStateDemo'
 
+export type RootStackParamList = {
+  UseStateDemo: undefined;
+  UseEffectDemo: undefined;
+}
+
 const Stack = createNativeStackNavigator()
 
 export function App() {

@@ -1,9 +1,11 @@
 import { useNavigation } from '@react-navigation/native'
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar'
 import { Button, Platform, StyleSheet, Text, View } from 'react-native'
+import { RootStackParamList } from './App'
 
 export default function Home() {
-  const navigation = useNavigation()
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
 
   return (
     <View style={styles.container}>
