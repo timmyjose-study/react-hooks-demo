@@ -12,6 +12,13 @@ export default function Home() {
       <Text style={styles.text}>Learning React hooks</Text>
       <Button title='useState Demo' onPress={() => navigation.navigate('UseStateDemo')} />
       <Button title='useEffect Demo' onPress={() => navigation.navigate('UseEffectDemo')} />
+      <Button title='useContext Demo' onPress={() => navigation.navigate('UseContextDemo')} />
+      <Button title='useRef Demo' onPress={() => navigation.navigate('UseRefDemo')} />
+      <Button title='useReducer Demo' onPress={() => navigation.navigate('UseReducerDemo')} />
+      <Button title='useLayoutEffect Demo' onPress={() => navigation.navigate('UseLayoutEffectDemo')} />
+      <Button title='useMemo Demo' onPress={() => navigation.navigate('UseMemoDemo')} />
+      <Button title='useCallback Demo' onPress={() => navigation.navigate('UseCallbackDemo')} />
+      <Button title='Custom Hooks Demo' onPress={() => navigation.navigate('CustomHooksDemo')} />
       <StatusBar style="auto" />
     </View>
   );
